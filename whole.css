@@ -1,0 +1,145 @@
+/* mainform css */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+     list-style-type: none;
+     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar {
+   width: 280px;
+   position: fixed;
+   left: 0;
+   top:0;
+   height: 100%;
+   background-color:#10558d;
+
+
+}
+
+.main-content {
+    margin-left: 280px;
+    background-color: #ffffff;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+.wrapper .sidebar ul li a{
+    display: inline-block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+.wrapper .sidebar ul li a{
+    display: flex;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    
+}
+
+
+.wrapper .sidebar ul li a:hover{
+    background-color: #dcdfef;
+      transition: background-color 0.3s;
+      border-radius: 20px;
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form {
+    margin-left: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color:#10558d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2a27f7;
+  }
+  
+  .concept {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d3d3;
+    box-sizing: border-box;
+    height: 600px;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 0 50px;
+    border-bottom: 3px solid #000;
+  }
+  
+  .module-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .module {
+    height: 400px;
+    width: 250px;
+    margin-left: 64px;
+    border: 2px solid;
+  }
+  
